@@ -3,7 +3,7 @@
 
 **Sensitivity Analysis** is a process to get the relationship between the parameters and the output of a model.
 
-**Example:** Effect of reaction 1 rate on the temperature or the species concentration.
+**Example:** Effect of reaction rate on the temperature or the species concentration.
 
 ## Generic ODE System:
 
