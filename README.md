@@ -92,3 +92,8 @@ The purpose of Sensitivity Analysis is that we can tune the most sensitive react
 
 ## Results
 ![Sensitivity](https://github.com/user-attachments/assets/b97a4fb9-6a69-47f5-8b0f-0e9d60f58db7)
+
+The above figure shows a horizontal bar representation for the top ten reactions in the GRI mechanism file. The modulus of sensitivity co-efficient and the top reactions are represented in x and y axes respectively. These results tell us that of all the reactions in the GRI mechanism, 'CH3+O2⇔CH3O+O' reaction has the highest temperature senitivity.
+
+When we obtain a positive sensitivity co-efficient, the temperature increases. Due to this, the Ignition Delay decrease because the ignition is happening at a faster rate. Similarly, when we have a negative sensitivity co-efficient, the burning is slow and respectively the Ignition Delay inreases.
+To increase or decrease Ignition Delay, we can refer to the particular sensitivity co-efficients and change the rate co-efficients accordingly.
