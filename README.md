@@ -1,4 +1,5 @@
-﻿# Methane Sensitivity Analysis
+
+ # Methane Sensitivity Analysis
 
 **Sensitivity Analysis** is a process to get the relationship between the parameters and the output of a model.
 
@@ -89,4 +90,5 @@ Reaction mechanisms aren’t always made with specific parameters in mind. For e
 
 The purpose of Sensitivity Analysis is that we can tune the most sensitive reaction mechanisms i.e. we can adjust the rate co-efficient so that it will give us a match for the Ignition Delay. Engineers use this method to tune the reaction mechanisms to their problem specific parameters.
 
-
+## Results
+![Sensitivity](https://github.com/user-attachments/assets/356ec852-0c4c-442c-acda-110a2c0478a1)
