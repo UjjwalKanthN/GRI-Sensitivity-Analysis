@@ -48,7 +48,10 @@ So, if we have \( n \) reactions with \( k \) species and temperature, the size 
 ## Graphical Representation:
 
 To have a better understanding of Sensitivity, consider the following graph:
-![Picture1](https://github.com/user-attachments/assets/e4222a47-c38e-49d4-bcb9-7d977aa80703)
+<p align="center">
+  <img src="./images/Perturbation.png" alt="Description of the image" />
+</p>
+<p align="center"><b>Figure 1:</b> Parameter Perturbation/Variation</p>
 
 The X-axis represents **Time**, and the Y-axis represents **Variable** (Temperature, Concentration, etc.). Let's say for a given reaction parameter, we get the curve $(c_1)$ as a function of time. When we change the parameter of $(c_1)$ by $(\delta p)$, which is $(p + \delta p)$, we obtain the curve $(c_2)$.
 
@@ -92,6 +95,15 @@ The purpose of Sensitivity Analysis is that we can tune the most sensitive react
 
 ## Results
 ![Sensitivity](https://github.com/user-attachments/assets/b97a4fb9-6a69-47f5-8b0f-0e9d60f58db7)
+<p align="center">
+  <img src="./images/CH4_sens.png" alt="CH4 sensitive reactions" />
+</p>
+<p align="center"><b>Figure 2:</b> Top most CH4 Senstitive Reactions</p>
+
+<p align="center">
+  <img src="./images/H2_sens.png" alt="H2 sensitive reactions" />
+</p>
+<p align="center"><b>Figure 3:</b> Top most H2 Senstitive Reactions</p>
 
 The above figure shows a horizontal bar representation for the top ten reactions in the GRI mechanism file. The modulus of sensitivity co-efficient and the top reactions are represented in x and y axes respectively. These results tell us that of all the reactions in the GRI mechanism, 'CH3+O2⇔CH3O+O' reaction has the highest temperature senitivity.
 
