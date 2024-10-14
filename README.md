@@ -94,7 +94,6 @@ Reaction mechanisms aren’t always made with specific parameters in mind. For e
 The purpose of Sensitivity Analysis is that we can tune the most sensitive reaction mechanisms i.e. we can adjust the rate co-efficient so that it will give us a match for the Ignition Delay. Engineers use this method to tune the reaction mechanisms to their problem specific parameters.
 
 ## Results
-![Sensitivity](https://github.com/user-attachments/assets/b97a4fb9-6a69-47f5-8b0f-0e9d60f58db7)
 <p align="center">
   <img src="./images/CH4_sens.png" alt="CH4 sensitive reactions" />
 </p>
@@ -105,7 +104,7 @@ The purpose of Sensitivity Analysis is that we can tune the most sensitive react
 </p>
 <p align="center"><b>Figure 3:</b> Top most H2 Senstitive Reactions</p>
 
-The above figure shows a horizontal bar representation for the top ten reactions in the GRI mechanism file. The modulus of sensitivity co-efficient and the top reactions are represented in x and y axes respectively. These results tell us that of all the reactions in the GRI mechanism, 'CH3+O2⇔CH3O+O' reaction has the highest temperature senitivity.
+The above figure shows a horizontal bar representation for the top ten reactions in the GRI mechanism file. The modulus of sensitivity co-efficient and the top reactions are represented in x and y axes respectively. These results tell us that of all the reactions in the GRI mechanism, 'CH3+O2⇔CH3O+O' reaction has the highest temperature senitivity and for H2 mechanism, 'H+O2⇔O+OH'' reaction has the highest sensitivity.
 
 When we obtain a positive sensitivity co-efficient, the temperature increases. Due to this, the Ignition Delay decrease because the ignition is happening at a faster rate. Similarly, when we have a negative sensitivity co-efficient, the burning is slow and respectively the Ignition Delay inreases.
 To increase or decrease Ignition Delay, we can refer to the particular sensitivity co-efficients and change the rate co-efficients accordingly.
