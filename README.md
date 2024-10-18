@@ -40,10 +40,10 @@ w_{j,i} = \frac{\partial Z_j}{\partial a_i}
 $$
 
 where:
-- \( Z_j \) represents the corresponding variable (species or temperature),
-- \( a_i \) represents the reaction rate constant for reaction \( i \).
+- $(Z_j)$ represents the corresponding variable (species or temperature),
+- $( a_i)$ represents the reaction rate constant for reaction $(i)$.
 
-So, if we have \( n \) reactions with \( k \) species and temperature, the size of the sensitivity matrix would be \( w_{k+1,n} \).
+So, if we have $n$ reactions with $k$ species and temperature, the size of the sensitivity matrix would be $(w_{k+1,n})$.
 
 ## Graphical Representation:
 
